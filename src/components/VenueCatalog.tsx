@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Card from "./Card";
+import type { VenueItem, VenueJson } from "../../interface";
 
 export default async function VenueCatalog({venuesJson}:{venuesJson: Promise<VenueJson>}) {
     const data = await venuesJson;
