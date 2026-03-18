@@ -1,5 +1,5 @@
 'use client'
-import BookingList from "@/components/bookingList";
+import BookingList from "@/components/BookingList";
 
 
 export default function page() {
